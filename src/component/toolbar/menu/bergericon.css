@@ -1,0 +1,19 @@
+.bergericon{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.bergericon *{
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+}
+
+/* @media(max-width:699px){
+    .bergericon{
+        display: flex;
+    }
+} */

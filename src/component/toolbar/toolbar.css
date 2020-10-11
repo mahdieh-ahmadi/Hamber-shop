@@ -1,0 +1,28 @@
+.toolbar{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(119, 57, 16);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    box-sizing: border-box;
+}
+
+.iconberger{
+    height: 100%;
+    display: block;
+}
+
+.navbutton{
+    display: none;
+}
+
+@media(min-width:700px){
+    .iconberger{
+        display: none;
+    }
+    .navbutton{
+        display: block;
+    }
+}

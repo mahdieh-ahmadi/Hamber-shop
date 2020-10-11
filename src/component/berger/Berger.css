@@ -1,0 +1,53 @@
+.burger{
+    width: 200px;
+    height: 220px;
+    overflow: scroll;
+    margin: auto;
+    text-align: center;
+}
+
+.disable{
+    display: none;
+}
+
+.masage{
+    font-weight: 500;
+    color: black;
+}
+
+.hideback{
+    display: none;
+}
+
+@media (min-width:500px){
+    .burger{
+        width: 400px;
+        height: 340px;
+    }
+}
+
+@media (min-width:600px){
+    .burger{
+        width: 450px;
+        height: 350px;
+    }
+}
+
+@media (min-width:800px){
+    .burger{
+        width: 500px;
+        height: 400px;
+    }
+}
+
+@media (min-width:1000px){
+    .burger{
+        width: 600px;
+        height:450px;
+    }
+}
+
+
+
+
+

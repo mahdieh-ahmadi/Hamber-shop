@@ -1,0 +1,26 @@
+.orders{
+    color: black;
+    width: 80%;
+    margin: 5px auto;
+    box-shadow: 0 2px 5px #ccc;
+    border: 1px solid rgb(228, 228, 228);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.orders p{
+    color: black;
+    font-size: 18px;
+}
+
+.orders-item {
+    display: flex;
+}
+
+.orders-item li{
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    box-sizing: border-box;
+    font-size: 12px;
+}

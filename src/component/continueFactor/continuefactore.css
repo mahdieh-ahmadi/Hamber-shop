@@ -1,0 +1,18 @@
+.continuefactore{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 2px 5px #ccc;
+    border: 1px solid rgb(230, 230, 230);
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.factorBtn{
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.btns{
+    display: flex;
+}

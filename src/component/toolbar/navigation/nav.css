@@ -1,0 +1,29 @@
+.nav{
+    display: flex;
+}
+
+.nav *{
+    margin-left: 10px;
+    background-color: rgb(255, 196, 0);
+    color: black;
+    padding: 20px 15px;
+    align-items: center;
+    text-decoration: none;
+    margin-top: -3px;
+}
+
+.nav .active{
+    border-bottom: 2px solid rgb(25, 240, 255);
+    background-color: rgb(230, 183, 31);
+}
+
+.nav *:hover{
+    background-color: rgb(218, 116, 0);
+}
+
+/* @media(min-width:700px){
+    .nav{
+        display: flex;
+    }
+} */
+

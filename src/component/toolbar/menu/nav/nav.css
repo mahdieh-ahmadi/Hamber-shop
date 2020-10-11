@@ -1,0 +1,29 @@
+.navbar{
+    height: 100%;
+    width: 60%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 400;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    transition: all 0.5s 0.2s;
+}
+
+.navbar *:first-child{
+    width: 70%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.navbar *:last-child{
+    flex-direction: column;
+    width: 60%;
+}
+
+.hidden{
+    transform: translateX(-100%);
+    
+}
+

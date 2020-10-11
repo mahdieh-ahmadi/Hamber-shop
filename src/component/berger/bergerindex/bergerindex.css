@@ -1,0 +1,96 @@
+.bread-bottom{
+    width: 80%;
+    height: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: linear-gradient(to right, rgb(212, 99, 33),rgb(119, 28, 0));
+    margin: auto;
+}
+
+.bread-top{
+    width: 80%;
+    height: 60px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-image: linear-gradient(to right, rgb(212, 99, 33),rgb(119, 28, 0));
+    position: relative;
+    margin: auto;
+}
+
+.meat{
+    width: 82%;
+    height: 25px;
+    border-radius: 50px;
+    background-color: rgb(63, 20, 0);
+    margin: 2px auto;
+}
+
+.chees{
+    width: 90%;
+    height: 18px;
+    border-radius: 50px;
+    background-color: rgb(255, 203, 32);
+    margin: 2px auto;
+}
+
+.slicce1{
+    width: 20px;
+    height: 7px;
+    border-radius: 50%;
+    transform: rotate(30deg);
+    position: absolute;
+    top: 15%;
+    right: 25%;
+    background-color: #fff;
+}
+
+.slicce1::after{
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    top: 300%;
+    left: 70%;
+    border-radius: 50%;
+    transform: rotate(-20deg);
+}
+
+.slicce2{
+    width: 20px;
+    height: 7px;
+    border-radius: 50%;
+    transform: rotate(-30deg);
+    position: absolute;
+    top: 35%;
+    right: 60%;
+    background-color: #fff;
+}
+
+.slicce2::after{
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    top: 80%;
+    left: -200%;
+    border-radius: 50%;
+    transform: rotate(20deg);
+}
+
+.salad{
+    width: 82%;
+    height: 15px;
+    border-radius: 50px;
+    background-color: rgb(35, 207, 0);
+    margin: 2px auto;
+}
+
+.bakon{
+    width: 82%;
+    height: 12px;
+    border-radius: 1px;
+    background-color: rgb(235, 0, 0);
+    margin: 2px auto;
+}

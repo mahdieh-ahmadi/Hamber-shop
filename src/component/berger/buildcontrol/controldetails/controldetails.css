@@ -1,0 +1,28 @@
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    background-color: rgb(100, 45, 0);
+    color: navajowhite;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(139, 78, 29);
+}
+
+button:disabled{
+    background-color: rgb(102, 89, 89);
+    cursor: not-allowed;
+}
+
+p{
+    font-size: 20px;
+    color: oldlace;
+}
