@@ -53,8 +53,13 @@ class Berger extends Component{
             classhide=['back' , 'hide'].join(' ')
             factorhide = ['factor' , 'hide'].join(' ')
         }
-        let main =<Spinner/> 
-        if (this.props.ing !== null){
+        let main 
+        if(this.props.ing == null && this.props.err !== true) {
+            main =<Spinner/>
+        }else if (this.props.ing == null && this.props.err == true){
+            
+            main = <p className = 'masage'>error!</p>
+        }else if (this.props.ing !== null && this.props.err !== true){
             const structure = Object.keys(this.props.ing).map( logkey => {
                 return([...Array(this.props.ing[logkey])].map((_,i) => {
                     return(<Burgerindex type={logkey} key={logkey+i}/>)
@@ -108,7 +113,8 @@ class Berger extends Component{
 const mapStateToProps = state => {
     return{
         ing : state.berger.ingredient,
-        totalFee : state.berger.fee
+        totalFee : state.berger.fee,
+        err : state.berger.error
     }
 }
 

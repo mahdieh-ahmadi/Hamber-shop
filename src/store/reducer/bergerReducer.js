@@ -2,7 +2,8 @@ import * as actionsType from '../actions/actions'
 
 const initialState = {
     ingredient:null,
-    fee:400
+    fee:400,
+    error : false
 }
 
 const Fee = {
@@ -43,6 +44,8 @@ const bergerReducer = (state = initialState , action) => {
                     fee: 400,
                     error: false
                 };
+        case actionsType.initialberger_fail:
+            return {...state , error:true}
         default:
             return state
     }
