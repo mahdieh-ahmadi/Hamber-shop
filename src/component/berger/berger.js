@@ -54,9 +54,9 @@ class Berger extends Component{
             factorhide = ['factor' , 'hide'].join(' ')
         }
         let main 
-        if(this.props.ing == null && this.props.err !== true) {
+        if(this.props.ing === null && this.props.err !== true) {
             main =<Spinner/>
-        }else if (this.props.ing == null && this.props.err == true){
+        }else if (this.props.ing === null && this.props.err === true){
             
             main = <p className = 'masage'>error!</p>
         }else if (this.props.ing !== null && this.props.err !== true){
